@@ -1,6 +1,8 @@
-body{
-    background-color: grey;
-    h1{
-        color: black;        
-    }
+@import './base/layout.scss';
+
+body {
+  font-family: $mainFont;
+  background-color: $bgBodyColor;
+  color: white;
+  margin: 0 auto;
 }

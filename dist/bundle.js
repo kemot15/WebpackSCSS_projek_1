@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body h1{color:red}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);\", \"\"]);\n\n// Module\nexports.push([module.i, \"body{font-family:'Open Sans', sans-serif;background-color:#73b7e1;color:white;margin:0 auto}nav{text-align:center}.main-nav li{display:inline-block;padding:5px 30px;font-weight:400;font-size:1.2em;margin:10px}a{color:#472063;text-decoration:none}a:hover{text-decoration:underline}.half-column{display:inline-block;width:40%;padding:50px 0px 10px 20px}.landing-copy{margin-left:70px}.landing-copy p{font-size:1.3em;line-height:1.4em}.landing-copy h1{font-size:3em;line-height:1.2em}.cta-button{border:2px solid white;border-radius:50px;background-color:#d469a5;color:white;font-weight:700;padding:5px 20px}.cta-button:hover{background-color:#fa75ad;text-decoration:none}.right{float:right}nav{margin-top:6em;background-color:rgba(255,255,255,0.5);height:3.75em;padding:0px 40px}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/index.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
