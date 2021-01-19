@@ -1,0 +1,45 @@
+@import '../utils/variables.scss';
+@import './typography.scss';
+@import '../utils/mixin.scss';  
+  
+    .main-nav {
+    @include nav();
+        li {        
+        @include mainNavLi();
+        a {
+            color: $mainNavAcolor;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+            }
+        }   
+    }
+
+    .half-column {
+    display: inline-block;
+    width: 40%;
+    padding: $halfColumnPadding;
+    }
+
+    .landing-copy {
+    margin-left: 70px;
+    p {      
+        @include size(1.3em, 1.4em);
+    }
+
+    h1 {
+        @include size(3em, 1.2em);
+    }
+
+    .cta-button {
+        @include ctaBtn();
+        &:hover {
+            background-color: $bgButtonColorHover;      
+        }    
+        }
+
+        .right {
+        float: right;
+        }    
+    } 
